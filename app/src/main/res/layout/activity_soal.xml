@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="uinbdg.id.doa.Activities.SoalActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="LATIHAN"
+        app:titleTextColor="@color/white"></android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:padding="@dimen/spacing_small"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="1/20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jumlah"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/toolbar"/>
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jumlah"
+        android:layout_margin="@dimen/spacing_large">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_large">
+
+            <TextView
+                fontPath="fonts/montserrat_bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soal"
+                android:textColor="@color/green_500"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_soal"
+                fontPath="fonts/montserrat_bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soal"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_soal_lanjutan"
+                fontPath="fonts/montserrat_bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soal"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/card_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_1"
+        android:layout_margin="@dimen/spacing_large">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_large">
+
+            <TextView
+                fontPath="fonts/montserrat_bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jawaban"
+                android:textColor="@color/green_500"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_jawaban"
+                fontPath="fonts/montserrat_bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jawaban"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_jawaban_dari_db"
+                fontPath="fonts/montserrat_bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jawaban DB"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_kemiripan"
+                fontPath="fonts/montserrat_bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kemiripan"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/jawab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/spacing_large"
+        android:background="@color/colorPrimary"
+        android:drawableTint="@color/white"
+        android:drawableTop="@drawable/ic_keyboard_voice_black_24dp"
+        android:padding="@dimen/spacing_medium"
+        android:src="@drawable/ic_keyboard_voice_black_24dp"
+        android:text="JAWAB"
+        android:textColor="@color/white"
+        android:tint="@color/white" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/spacing_large"
+        android:background="@color/colorPrimary"
+        android:drawableTint="@color/white"
+        android:padding="@dimen/spacing_medium"
+        android:src="@drawable/ic_arrow_forward_black_24dp"
+        android:text="JAWAB"
+        android:textColor="@color/white"
+        android:tint="@color/white"
+        android:visibility="gone" />
+</RelativeLayout>

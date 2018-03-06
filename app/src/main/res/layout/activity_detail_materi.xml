@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="uinbdg.id.doa.Activities.SoalActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="DETAIL MATERI"
+        app:titleTextColor="@color/white"></android.support.v7.widget.Toolbar>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="@dimen/spacing_large">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_large">
+
+            <TextView
+                android:id="@+id/nama_doa"
+                fontPath="fonts/montserrat_bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NAMA DOA"
+                android:textColor="@color/green_500"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nama_lapadz"
+                fontPath="fonts/montserrat_bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lapadz"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_marginTop="@dimen/spacing_large"
+                android:id="@+id/latin"
+                fontPath="fonts/montserrat_bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Latin"
+                 />
+
+            <TextView
+                android:layout_marginTop="@dimen/spacing_large"
+                android:id="@+id/arti"
+                fontPath="fonts/montserrat_bold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arti"
+                 />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3364685109082975054",
+      "lastPropertyId": "5:5539740367125489534",
+      "name": "Doa",
+      "properties": [
+        {
+          "id": "1:990849665361053932",
+          "name": "id"
+        },
+        {
+          "id": "2:3912141824217434258",
+          "name": "lapadz"
+        },
+        {
+          "id": "3:1065316386796713024",
+          "name": "latin"
+        },
+        {
+          "id": "4:8584720131058271763",
+          "name": "arti"
+        },
+        {
+          "id": "5:5539740367125489534",
+          "name": "namaDoa"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2774595892186688301",
+      "lastPropertyId": "4:6132911881954487705",
+      "name": "Soal",
+      "properties": [
+        {
+          "id": "1:3895110211852291371",
+          "name": "id"
+        },
+        {
+          "id": "2:4909120780070960637",
+          "name": "jawaban"
+        },
+        {
+          "id": "3:8170535637154459038",
+          "name": "pertanyaanLanjutan"
+        },
+        {
+          "id": "4:6132911881954487705",
+          "name": "pertanyaan"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:8133149149074520146",
+      "lastPropertyId": "2:1421307033792817606",
+      "name": "Skor",
+      "properties": [
+        {
+          "id": "1:8360873745696467570",
+          "name": "id"
+        },
+        {
+          "id": "2:1421307033792817606",
+          "name": "nilai"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:8133149149074520146",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

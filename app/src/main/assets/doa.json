@@ -1,0 +1,147 @@
+{
+  "doa": [
+    {
+      "id": "1",
+      "nama_doa": "Doa Sebelum Makan",
+      "lapadz": "اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ",
+      "latin": "Alloohumma barik lanaa fiimaa razatanaa waqinaa 'adzaa bannar",
+      "arti": "Ya Allah berkahilah kami dalam rezeki yang telah Engkau berikan kepada kami dan peliharalah kami dari siksa api neraka"
+    },
+    {
+      "id": "2",
+      "nama_doa": "Doa Sesudah Makan",
+      "lapadz": "اَلْحَمْدُ ِللهِ الَّذِىْ اَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِيْنَ",
+      "latin": "Alhamdu lillaahil ladzii ath'amanaa wa saqoonaa wa ja'alnaa muslimiin",
+      "arti": "Segala puji bagi Allah yang telah memberi makan kami dan minuman kami serta menjadikan kami sebagai orang-orang islam"
+    },
+    {
+      "id": "3",
+      "nama_doa": "Doa Ketika Makan Lupa Membaca Doa",
+      "lapadz": "بِسْمِ اللهِ فِىِ أَوَّلِهِ وَآخِرِهِ",
+      "latin": "Bismillaahi fii awwalihi wa aakhirihi",
+      "arti": "Dengan menyebut nama Allah pada awal dan akhirnya"
+    },
+    {
+      "id": "4",
+      "nama_doa": "Doa Sebelum Tidur",
+      "lapadz": "بِسْمِكَ اللّٰهُمَّ اَحْيَا وَاَمُوْتُ",
+      "latin": "Bismikallohumma ahya wa amuutu",
+      "arti": "Dengan menyebut nama-Mu ya Allah aku hidup dan aku mati"
+    },
+    {
+      "id": "5",
+      "nama_doa": "Doa Masuk Kamar Mandi Atau Toilet",
+      "lapadz": "اَللّٰهُمَّ اِنّىْ اَعُوْذُبِكَ مِنَ الْخُبُثِ وَالْخَبَآئِثِ",
+      "latin": "Alloohumma Innii a'uudzubika minal khubutsi wal khoaaitsi",
+      "arti": "Ya Allah aku berlindung pada-Mu dari godaan syetan  laki-laki dan syetan perempuan"
+    },
+    {
+      "id": "6",
+      "nama_doa": "Doa Ketika Mendapat Mimpi Baik",
+      "lapadz": "اَلْحَمْدُ ِللهِ الَّذِيْ قَطْلَ الْحَاجَتِ",
+      "latin": "Alhamdulillahil ladzii qodzoo haajaati",
+      "arti": "Segala puji bagi Allah yang telah memberi hajatku"
+    },
+    {
+      "id": "7",
+      "nama_doa": "Doa Bangun Tidur",
+      "lapadz": "اَلْحَمْدُ ِللهِ الَّذِىْ اَحْيَانَا بَعْدَمَآ اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُ",
+      "latin": "Alhamdu lillahil ladzii ahyaanaa ba'da maa amaa tanaa wa ilahin nusyuuru",
+      "arti": "Segala puji bagi Allah yang telah menghidupkan kami sesudah kami mati (membangunkan dari tidur) dan hanya kepada-Nya kami dikembalikan"
+    },
+    {
+      "id": "8",
+      "nama_doa": "Doa Keluar Kamar Mandi Atau Toilet",
+      "lapadz": "غُفْرَانَكَ الْحَمْدُ ِللهِ الَّذِىْ اَذْهَبَ عَنّى اْلاَذَى وَعَافَانِىْ",
+      "latin": "Ghufraanaka. Alhamdulillaahil ladzii adzhaba ‘annjil adzaa wa’aafaanii.",
+      "arti": "Dengan mengharap ampunanMu segala puji milik Allah yang telah menghilangkan kotoran dari badanku dan yang telah menyejahterakan"
+    },
+    {
+      "id": "9",
+      "nama_doa": "Doa Ketika Bercermin",
+      "lapadz": "اَلْحَمْدُ ِللهِ كَمَا حَسَّنْتَ خَلْقِىْ  فَحَسِّـنْ خُلُقِىْ",
+      "latin": "Alhamdulillaahi kamaa hassanta kholqii fahassin khuluqii",
+      "arti": "Segala puji bagi Allah baguskanlah budi pekertiku sebagaimana Engkau telah membaguskan rupa wajahku"
+    },
+    {
+      "id": "10",
+      "nama_doa": "Doa Keluar Rumah / Doa Bepergian",
+      "lapadz": "بِسْمِ اللهِ تَوَكَّلْتُ عَلَى اللهِ لاَحَوْلَ وَلاَقُوَّةَ اِلاَّ بِالله",
+      "latin": "Bismillaahi tawakkaltu 'alalloohi laa hawlaa walaa quwwata illaa bilaahi",
+      "arti": "Dengan menyebut nama Allah aku bertawakal kepada Allah tiada daya kekuatan melainkan dengan pertologan Allah"
+    },
+    {
+      "id": "11",
+      "nama_doa": "Doa Memakai Pakaian",
+      "lapadz": "بِسْمِ اللهِ اَللّٰهُمَّ اِنِّى اَسْأَلُكَ مِنْ خَيْرِهِ وَخَيْرِ مَاهُوَ لَهُ وَاَعُوْذُبِكَ مِنْ شَرِّهِ وَشَرِّمَا هُوَلَهُ",
+      "latin": "Bismillaahi Alloohumma innii as-aluka min khoirihi wa khoiri maa huwa lahuu wa'a'uu dzubika min syarrihi wa syarri maa huwa lahuu",
+      "arti": "Dengan nama-Mu yaa Allah akku minta kepada Engkau kebaikan pakaian ini dan kebaikan apa yang ada padanya dan aku berlindung kepada Engkau dari kejahatan pakaian ini dan kejahatan yang ada padanya"
+    },
+    {
+      "id": "12",
+      "nama_doa": "Doa Melepas Pakaian",
+      "lapadz": "بِسْمِ اللهِ الَّذِيْ لاَ إِلَهَ إِلَّا هُوَ",
+      "latin": "Bismillaahil ladzii laa ilaaha illaa huwa",
+      "arti": "Dengan nama Allah yang tiada Tuhan selain-Nya"
+    },
+    {
+      "id": "13",
+      "nama_doa": "Doa Memohon Ilmu Yang Bermanfaat",
+      "lapadz": "اَللّٰهُمَّ اِنِّى اَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا طَيِّبًا وَعَمَلاً مُتَقَبَّلاً",
+      "latin": "Alloohumma innii as-aluka 'ilmaan naafi'aan wa rizqoon thoyyibaan wa 'amalaan mutaqobbalaan",
+      "arti": "Ya Allah sesungguhnya aku mohon kepada-Mu ilmu yang berguna rezki yang baik dan amal yang baik Diterima"
+    },
+    {
+      "id": "14",
+      "nama_doa": "Doa Sebelum Belajar",
+      "lapadz": "يَارَبِّ زِدْنِىْ عِلْمًا وَارْزُقْنِىْ فَهْمًا",
+      "latin": "Yaa robbi zidnii 'ilman warzuqnii fahmaa",
+      "arti": "Ya Allah tambahkanlah aku ilmu dan berikanlah aku rizqi akan kepahaman"
+    },
+    {
+      "id": "15",
+      "nama_doa": "Doa Berpergian",
+      "lapadz": "اَللّٰهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِعَنَّابُعْدَهُ اَللّٰهُمَّ اَنْتَ الصَّاحِبُ فِى السَّفَرِوَالْخَلِيْفَةُفِى الْاَهْلِ",
+      "latin": "Alloohumma hawwin 'alainaa safaranaa hadzaa waatwi 'annaa bu'dahu. Alloohumma antashookhibu fiissafari walkholiifatu fiil ahli",
+      "arti": "Ya Allah mudahkanlah kami berpergian ini dan dekatkanlah kejauhannya Ya Allah yang menemani dalam berpergian dan Engkau pula yang melindungi keluarga"
+    },
+    {
+      "id": "16",
+      "nama_doa": "Doa Naik Kendaraan",
+      "lapadz": "سُبْحَانَ الَّذِىْ سَخَّرَلَنَا هَذَا وَمَاكُنَّالَهُ مُقْرِنِيْنَ وَاِنَّآ اِلَى رَبِّنَا لَمُنْقَلِبُوْنَ",
+      "latin": "Subhaanalladzii sakkhara lanaa hadza wama kunna lahu muqriniin wa-inna ilaa rabbina lamunqalibuun.",
+      "arti": "Maha suci Allah yang telah menundukkan untuk kami (kendaraan) ini padahal sebelumnya kami tidak mampu untuk menguasainya dan hanya kepada-Mu lah kami akan kembali "
+    },
+    {
+      "id": "17",
+      "nama_doa": "Doa Naik Kapal",
+      "lapadz": "بِسْمِ اللهِ مَجْرَهَا وَمُرْسَهَآاِنَّ رَبِّىْ لَغَفُوْرٌرَّحِيْمٌ",
+      "latin": "Bismillaahi majrahaa wa mursaahaa inna robbii laghofuurur rohiim",
+      "arti": "Dengan nama Allah yang menjalankan kendaraan ini berlayar dan berlabuh sesungguhnya Tuhanku benar-benar Maha Pengampun lagi Maha Penyayang"
+    },
+    {
+      "id": "18",
+      "nama_doa": "Doa Masuk Masjid",
+      "lapadz": "اَللّٰهُمَّ افْتَحْ لِيْ اَبْوَابَ رَحْمَتِكَ",
+      "latin": "Allahummaf tahlii abwaaba rohmatik",
+      "arti": " Ya Allah bukalah untukku pintu-pintu rahmat-Mu"
+    },
+    {
+      "id": "19",
+      "nama_doa": "Doa Keluar Masjid",
+      "lapadz": "اَللّٰهُمَّ اِنِّى اَسْأَلُكَ مِنْ فَضْلِكَ",
+      "latin": "Allahumma innii asaluka min fadlik",
+      "arti": "Ya Allah sesungguhnya aku memohon keutamaan dari-Mu"
+    },
+    {
+      "id": "20",
+      "nama_doa": "Doa akan Mandi (Bukan Mandi Wajib)",
+      "lapadz": "اَللّٰهُمَّ اغْفِرْلِى ذَنْبِى وَوَسِّعْ لِى فِىْ دَارِىْ وَبَارِكْ لِىْ فِىْ رِزْقِىْ",
+      "latin": "Alloohummaghfirlii dzambii wa wassi'lii fii daarii wa baarik lii fii rizqii",
+      "arti": "Ya Allah ampunilah dosa kesalahanku dan berilah keluasaan di rumahku serta berkahilah pada rezekiku"
+    },
+    {
+      "id": ""
+    }
+  ]
+}
