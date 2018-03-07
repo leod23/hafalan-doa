@@ -24,6 +24,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
+import java.util.Random;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -85,7 +86,10 @@ public class SoalActivity extends AppCompatActivity {
         loadJSONFromAsset();
 
         notes = notesQuery.find();
-        Collections.shuffle(notes);
+        Random rand = new Random();
+        rand.nextInt(computeX(2,notes.size()).length);
+        Collections.shuffle(notes,rand);
+
         tvSoal.setText(notes.get(pos).getPertanyaan());
         tvSoalLanjutan.setText(notes.get(pos).getPertanyaanLanjutan());
         jumlah.setText(pos + 1 + "/" + notes.size());
@@ -143,6 +147,8 @@ public class SoalActivity extends AppCompatActivity {
                     "Not supported",
                     Toast.LENGTH_SHORT).show();
         }
+
+
     }
 
     @Override
@@ -216,5 +222,31 @@ public class SoalActivity extends AppCompatActivity {
         builder.setMessage("Jawaban Anda benar " + nilai + " dari " + notes.size() + " Pertanyaan");
         AlertDialog dialog = builder.create();
         dialog.show();
+    }
+
+    public static int[] computeX(int l, int n) {
+
+        int min = (int) Math.pow(2, (l-1));
+        int max = (int) Math.pow(2, l);
+        Random rand = new Random();
+
+        // compute l-bit integer m
+        int m = rand.nextInt((min+1)) + max;
+
+        // compute random a, b, x0 in {0, ... m-1}
+        // max is m-1, min is 0
+        // rand.nextInt((m-1 - 0) + 1) + 0 = rand.nextInt(m)
+        int a = rand.nextInt(m);
+        int b = rand.nextInt(m);
+        int x = rand.nextInt(m);
+
+        int[] array = new int[n+1];
+        System.out.print("x values: ");
+        for (int i = 0; i < n+1; i ++) {
+            x = (a * x + b) % m; // LCG formula
+            System.out.println(x);
+            array[i] = x;
+        }
+        return array;
     }
 }
