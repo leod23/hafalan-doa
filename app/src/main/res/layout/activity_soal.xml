@@ -107,6 +107,7 @@
                 android:textSize="20dp" />
 
             <TextView
+                android:layout_marginTop="@dimen/spacing_large"
                 android:id="@+id/tv_kemiripan"
                 fontPath="fonts/montserrat_bold.ttf"
                 android:layout_width="match_parent"

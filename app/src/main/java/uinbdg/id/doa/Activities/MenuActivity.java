@@ -25,6 +25,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import io.objectbox.Box;
 import io.objectbox.query.Query;
+import uinbdg.id.doa.Util.LevenshteinDistance;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class MenuActivity extends AppCompatActivity {
@@ -40,6 +41,7 @@ public class MenuActivity extends AppCompatActivity {
 
     private Box<Doa> notesBox;
     private Query<Doa> notesQuery;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +49,7 @@ public class MenuActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         notesBox = ((App) getApplication()).getBoxStore().boxFor(Doa.class);
         notesQuery = notesBox.query().build();
+
         loadJSONFromAsset();
     }
 
@@ -59,13 +62,13 @@ public class MenuActivity extends AppCompatActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_materi:
-                startActivity(new Intent(this,MateriActivity.class));
+                startActivity(new Intent(this, MateriActivity.class));
                 break;
             case R.id.btn_latihan:
-                startActivity(new Intent(this,SoalActivity.class));
+                startActivity(new Intent(this, SoalActivity.class));
                 break;
             case R.id.btn_skor:
-                startActivity(new Intent(this,SkorActivity.class));
+                startActivity(new Intent(this, SkorActivity.class));
                 break;
             case R.id.btn_tentang:
                 break;
@@ -94,7 +97,7 @@ public class MenuActivity extends AppCompatActivity {
             for (int i = 0; i < m_jArry.length(); i++) {
                 JSONObject jo_inside = m_jArry.getJSONObject(i);
                 Doa doa = new Doa();
-                doa.setId( jo_inside.getInt("id"));
+                doa.setId(jo_inside.getInt("id"));
                 doa.setNamaDoa(jo_inside.getString("nama_doa"));
                 doa.setLapadz(jo_inside.getString("lapadz"));
                 doa.setLatin(jo_inside.getString("latin"));

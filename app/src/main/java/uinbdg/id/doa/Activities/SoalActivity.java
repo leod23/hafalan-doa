@@ -10,6 +10,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -36,6 +37,7 @@ import uinbdg.id.doa.Interfaces.Levenshtein;
 import uinbdg.id.doa.Model.Skor;
 import uinbdg.id.doa.Model.Soal;
 import uinbdg.id.doa.R;
+import uinbdg.id.doa.Util.LevenshteinDistance;
 
 public class SoalActivity extends AppCompatActivity {
 
@@ -166,12 +168,36 @@ public class SoalActivity extends AppCompatActivity {
                     next.setVisibility(View.VISIBLE);
                     jawab.setVisibility(View.GONE);
                     Levenshtein jw = new Levenshtein();
-                    double similarity = jw.similarity(tvJawaban.getText().toString(), tvJawabanDariDb.getText().toString());
-                    tvKemiripan.setText("Kemiripan " + String.valueOf(similarity));
 
-                    if (similarity > 0.5) {
-                        nilai += 1;
+
+                    int panjangA = result.get(0).length();
+                    int panjangB = notes.get(pos).getJawaban().length();
+                    int panjangKarakter = 0;
+
+                    if (panjangA > panjangB) {
+                        panjangKarakter = panjangA;
+                    } else if (panjangB > panjangA) {
+                        panjangKarakter = panjangB;
                     }
+
+
+                    int distance = LevenshteinDistance.computeLevenshteinDistance(result.get(0),notes.get(pos).getJawaban());
+
+                    float kemiripan = (float) distance / panjangKarakter;
+                    kemiripan = 1 - kemiripan;
+
+                    Log.d("DISTANCE", String.valueOf(distance));
+                    Log.d("PANJANG KARAKTER", String.valueOf(panjangKarakter));
+                    Log.d("KEMIRIPAN", String.valueOf(kemiripan));
+
+                    String hasil;
+
+                    if (kemiripan > 0.5) {
+                        hasil = "benar";
+                    } else {
+                        hasil = "salah";
+                    }
+                    tvKemiripan.setText(hasil);
                 }
                 break;
             }
@@ -188,7 +214,9 @@ public class SoalActivity extends AppCompatActivity {
                 break;
             case R.id.next:
                 pos += 1;
-                nextQuis();
+                if(pos <= 20){
+                    nextQuis();
+                }
                 break;
         }
     }
@@ -249,4 +277,6 @@ public class SoalActivity extends AppCompatActivity {
         }
         return array;
     }
+
+
 }

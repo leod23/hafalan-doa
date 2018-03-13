@@ -5,6 +5,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 
 import com.mikepenz.materialdrawer.AccountHeader;
@@ -22,6 +23,7 @@ import uinbdg.id.doa.R;
 import uinbdg.id.doa.Util.CommonUtil;
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import uinbdg.id.doa.Util.LevenshteinDistance;
 
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.toolbar)
@@ -36,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         initView(savedInstanceState);
+
     }
 
     private void initView(Bundle savedInstanceState) {
