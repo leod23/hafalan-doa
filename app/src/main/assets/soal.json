@@ -26,15 +26,15 @@
     },
     {
       "id": 5,
-      "pertanyaan_lanjutan": "اَللّٰهُمَّ اِنّىْ اَعُوْذُبِكَ مِنَ الْخُبُثِ وَالْخَبَآئِثِ",
-      "jawaban": "Doa Masuk Kamar Mandi Atau Toilet",
-      "pertanyaan": "Berikut termasuk kepada doa apakah ?"
+      "pertanyaan_lanjutan": "اَللّٰهُمَّ اِنّىْ ........... مِنَ الْخُبُثِ وَالْخَبَآئِثِ",
+      "jawaban": "اَعُوْذُبِكَ",
+      "pertanyaan": "lanjutkan potongan doa yang hilang ?"
     },
     {
       "id": 6,
       "pertanyaan_lanjutan": "اَلْحَمْدُ ِللهِ الَّذِيْ",
       "jawaban": "قَطْلَ الْحَاجَتِ",
-      "pertanyaan": "Doa Ketika Mendapat Mimpi Baik"
+      "pertanyaan": "Berikut adalah potongan Doa Ketika Mendapat Mimpi Baik, lengkapilah"
     },
     {
       "id": 7,
@@ -50,15 +50,15 @@
     },
     {
       "id": 9,
-      "pertanyaan_lanjutan": " ",
-      "jawaban": " baguskanlah budi pekertiku sebagaimana Engkau telah membaguskan rupa wajahku",
-      "pertanyaan": "اَلْحَمْدُ ِللهِ كَمَا حَسَّنْتَ خَلْقِىْ  فَحَسِّـنْ خُلُقِىْ"
+      "pertanyaan_lanjutan": "Lanjutkan potongan doa tersebut",
+      "jawaban": "خُلُقِىْ",
+      "pertanyaan": "اَلْحَمْدُ ِللهِ كَمَا حَسَّنْتَ خَلْقِىْ  فَحَسِّـنْ........."
     },
     {
       "id": 10,
-      "pertanyaan_lanjutan": "بِسْمِ اللهِ تَوَكَّلْتُ عَلَى اللهِ لاَحَوْلَ وَلاَقُوَّةَ اِلاَّ بِالله",
-      "jawaban": "Doa Keluar Rumah / Doa Bepergian",
-      "pertanyaan": "Doa apakah pada bunyi doa berikut ?"
+      "pertanyaan_lanjutan": "........... عَلَى اللهِ لاَحَوْلَ وَلاَقُوَّةَ اِلاَّ بِالله",
+      "jawaban": "بِسْمِ اللهِ تَوَكَّلْتُ",
+      "pertanyaan": "lengkapi doa berikut ?"
     },
     {
       "id": 11,
@@ -68,9 +68,9 @@
     },
     {
       "id": 12,
-      "pertanyaan_lanjutan": "بِسْمِ اللهِ الَّذِيْ لاَ إِلَهَ إِلَّا هُوَ",
-      "jawaban": "Doa Melepas Pakaian",
-      "pertanyaan": "Doa apakah pada bunyi doa berikut ?"
+      "pertanyaan_lanjutan": "............لاَ إِلَهَ إِلَّا هُوَ",
+      "jawaban": "بِسْمِ اللهِ الَّذِيْ",
+      "pertanyaan": "lengkapi doa berikut ?"
     },
     {
       "id": 13,
@@ -92,15 +92,15 @@
     },
     {
       "id": 16,
-      "pertanyaan_lanjutan": "سُبْحَانَ الَّذِىْ سَخَّرَلَنَا هَذَا وَمَاكُنَّالَهُ مُقْرِنِيْنَ وَاِنَّآ اِلَى رَبِّنَا لَمُنْقَلِبُوْنَ",
-      "jawaban": "Maha suci Allah yang telah menundukkan untuk kami (kendaraan) ini. padahal sebelumnya kami tidak mampu untuk menguasainya, dan hanya kepada-Mu lah kami akan kembali ",
-      "pertanyaan": "Apa arti dari doa berikut ?"
+      "pertanyaan_lanjutan": "سُبْحَانَ الَّذِىْ سَخَّرَلَنَا هَذَا وَمَاكُنَّالَهُ ........ وَاِنَّآ اِلَى رَبِّنَا لَمُنْقَلِبُوْنَ",
+      "jawaban": "مُقْرِنِيْنَ",
+      "pertanyaan": "Lengkapi potongan doa yang hilang ?"
     },
     {
       "id": 17,
-      "pertanyaan_lanjutan": "بِسْمِ اللهِ مَجْرَهَا وَمُرْسَهَآاِنَّ رَبِّىْ لَغَفُوْرٌرَّحِيْمٌ",
-      "jawaban": "Dengan nama Allah yang menjalankan kendaraan ini berlayar dan berlabuh, sesungguhnya Tuhanku benar-benar Maha Pengampun lagi Maha Penyayang",
-      "pertanyaan": "Apa arti dari doa berikut ?"
+      "pertanyaan_lanjutan": ".......... مَجْرَهَا وَمُرْسَهَآاِنَّ رَبِّىْ لَغَفُوْرٌرَّحِيْمٌ",
+      "jawaban": "بِسْمِ اللهِ",
+      "pertanyaan": "lengkapi potongan doa yang hilang?"
     },
     {
       "id": 18,
@@ -111,7 +111,7 @@
     {
       "id": 19,
       "pertanyaan_lanjutan": "اَللّٰهُمَّ اِنِّى....مِنْ فَضْلِكَ",
-      "jawaban": " اَسْأَلُكَ",
+      "jawaban": "اَسْأَلُكَ",
       "pertanyaan": "Apa kelanjutan dari potongan doa tersebut ?"
     },
     {
@@ -119,6 +119,36 @@
       "pertanyaan_lanjutan": "اَللّٰهُمَّ اغْفِرْلِى ذَنْبِى",
       "jawaban": "وَوَسِّعْ لِى فِىْ دَارِىْ وَبَارِكْ لِىْ فِىْ رِزْقِىْ",
       "pertanyaan": "Apa kelanjutan dari potongan doa tersebut ?"
+    },
+    {
+      "id": 21,
+      "pertanyaan_lanjutan": "اَللّٰهُمَّ طَهِّرُ قَلْبِىْ مِنَ النِّفَاقِ وَحَصِّنْ فَرْخِى.........",
+      "jawaban": "مِنَ الْفَوَاحِش",
+      "pertanyaan": "Apa kelanjutan dari potongan doa tersebut ?"
+    },
+    {
+      "id": 22,
+      "pertanyaan_lanjutan": "......... قَلْبِىْ مِنَ النِّفَاقِ وَحَصِّنْ فَرْخِى",
+      "jawaban": "اَللّٰهُمَّ طَهِّرُ",
+      "pertanyaan": "lengkapi potongan doa yang hilang ?"
+    },
+    {
+      "id": 23,
+      "pertanyaan_lanjutan": "اَللّٰهُمَّ اِنِّى اَسْأَلُكَ مِنْ.....",
+      "jawaban": "فَضْلِكَ",
+      "pertanyaan": "lengkapi potongan doa yang hilang ?"
+    },
+    {
+      "id": 24,
+      "pertanyaan_lanjutan": "Ya Allah, sesungguhnya aku memohon keutamaan dari-Mu",
+      "jawaban": "اَللّٰهُمَّ اِنِّى اَسْأَلُكَ مِنْ فَضْلِكَ",
+      "pertanyaan": "Bacakan lafaldz yang mempunyai arti sebagai berikut ?"
+    },
+    {
+      "id": 25,
+      "pertanyaan_lanjutan": "Ya Allah bukalah untukku pintu-pintu rahmat-Mu",
+      "jawaban": "اَللّٰهُمَّ افْتَحْ لِيْ اَبْوَابَ رَحْمَتِكَ",
+      "pertanyaan": "Bacakan lafaldz yang mempunyai arti sebagai berikut ?"
     }
   ]
 }
